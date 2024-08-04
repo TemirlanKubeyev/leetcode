@@ -16,8 +16,12 @@ public class Main {
         System.out.println(rat);
         */
 
-        PalindromeNumber solution = new PalindromeNumber();
-        System.out.println(solution.isPalindrome(10));
+        //PalindromeNumber solution = new PalindromeNumber();
+        //System.out.println(solution.isPalindrome(10));
+
+        StringToInteger stringToInteger = new StringToInteger();
+        System.out.println(stringToInteger.myAtoi(""));
+
 
     }
 
