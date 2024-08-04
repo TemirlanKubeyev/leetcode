@@ -1,6 +1,6 @@
 package org.example;
 
-public class Solution {
+public class ReverseNumber {
 
     public int reverse(int num) {
         int initNumber = num;
