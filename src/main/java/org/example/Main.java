@@ -19,9 +19,11 @@ public class Main {
         //PalindromeNumber solution = new PalindromeNumber();
         //System.out.println(solution.isPalindrome(10));
 
-        StringToInteger stringToInteger = new StringToInteger();
-        System.out.println(stringToInteger.myAtoi(""));
+        //StringToInteger stringToInteger = new StringToInteger();
+        //System.out.println(stringToInteger.myAtoi(""));
 
+        LongestPrefix longestPrefix = new LongestPrefix();
+        System.out.println(longestPrefix.longestCommonPrefix(new String[]{"aaa","aa","aaa"}));
 
     }
 
