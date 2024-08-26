@@ -31,13 +31,14 @@ public class Main {
         //ValidParentheses validParentheses = new ValidParentheses();
         //System.out.println(validParentheses.isValid("(((((((({{{{{{{{{()"));
 
-        RemoveElement removeElement = new RemoveElement();
-        int k = removeElement.removeElement(new int[]{3, 2, 2, 3}, 3);
-        System.out.println(k);
+        //RemoveElement removeElement = new RemoveElement();
+        //int k = removeElement.removeElement(new int[]{3, 2, 2, 3}, 3);
+        //System.out.println(k);
 
         RemoveDuplicates removeDuplicates = new RemoveDuplicates();
-        removeDuplicates.removeDuplicates(new int[]{1, 1, 2});
-
+        //int k = removeDuplicates.removeDuplicates(new int[]{1, 1, 2});
+        int k = removeDuplicates.removeDuplicates(new int[]{0,0,1,1,1,2,2,3,3,4});
+        System.out.println(k);
 
 
     }
