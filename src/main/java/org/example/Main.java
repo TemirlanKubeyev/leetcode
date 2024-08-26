@@ -28,8 +28,16 @@ public class Main {
         //RomanToInteger romanToInteger = new RomanToInteger();
         //System.out.println(romanToInteger.romanToInt("IV"));
 
-        ValidParentheses validParentheses = new ValidParentheses();
-        System.out.println(validParentheses.isValid("(((((((({{{{{{{{{()"));
+        //ValidParentheses validParentheses = new ValidParentheses();
+        //System.out.println(validParentheses.isValid("(((((((({{{{{{{{{()"));
+
+        RemoveElement removeElement = new RemoveElement();
+        int k = removeElement.removeElement(new int[]{3, 2, 2, 3}, 3);
+        System.out.println(k);
+
+        RemoveDuplicates removeDuplicates = new RemoveDuplicates();
+        removeDuplicates.removeDuplicates(new int[]{1, 1, 2});
+
 
 
     }
