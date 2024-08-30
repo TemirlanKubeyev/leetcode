@@ -35,11 +35,13 @@ public class Main {
         //int k = removeElement.removeElement(new int[]{3, 2, 2, 3}, 3);
         //System.out.println(k);
 
-        RemoveDuplicates removeDuplicates = new RemoveDuplicates();
+        //RemoveDuplicates removeDuplicates = new RemoveDuplicates();
         //int k = removeDuplicates.removeDuplicates(new int[]{1, 1, 2});
-        int k = removeDuplicates.removeDuplicates(new int[]{0,0,1,1,1,2,2,3,3,4});
-        System.out.println(k);
+        //int k = removeDuplicates.removeDuplicates(new int[]{0,0,1,1,1,2,2,3,3,4});
+        //System.out.println(k);
 
+        Palindrome palindrome = new Palindrome();
+        System.out.println(palindrome.longestPalindrome("babad"));
 
     }
 
