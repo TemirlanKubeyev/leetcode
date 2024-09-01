@@ -43,8 +43,11 @@ public class Main {
         //Palindrome palindrome = new Palindrome();
         //System.out.println(palindrome.longestPalindrome("babad"));
 
-        Occurrence occurrence = new Occurrence();
-        System.out.println(occurrence.strStr("leetcode", "leeto"));
+        //Occurrence occurrence = new Occurrence();
+        //System.out.println(occurrence.strStr("leetcode", "leeto"));
+
+        SearchInsertPosition searchInsertPosition = new SearchInsertPosition();
+        System.out.println(searchInsertPosition.searchInsert(new int[]{1, 3, 5, 6}, 7));
 
 
     }
