@@ -46,8 +46,11 @@ public class Main {
         //Occurrence occurrence = new Occurrence();
         //System.out.println(occurrence.strStr("leetcode", "leeto"));
 
-        SearchInsertPosition searchInsertPosition = new SearchInsertPosition();
-        System.out.println(searchInsertPosition.searchInsert(new int[]{1, 3, 5, 6}, 7));
+        //SearchInsertPosition searchInsertPosition = new SearchInsertPosition();
+        //System.out.println(searchInsertPosition.searchInsert(new int[]{1, 3, 5, 6}, 7));
+
+        LastWordLength lastWordLength = new LastWordLength();
+        System.out.println(lastWordLength.lengthOfLastWord("luffy is still joyboy"));
 
 
     }
