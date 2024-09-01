@@ -40,8 +40,12 @@ public class Main {
         //int k = removeDuplicates.removeDuplicates(new int[]{0,0,1,1,1,2,2,3,3,4});
         //System.out.println(k);
 
-        Palindrome palindrome = new Palindrome();
-        System.out.println(palindrome.longestPalindrome("babad"));
+        //Palindrome palindrome = new Palindrome();
+        //System.out.println(palindrome.longestPalindrome("babad"));
+
+        Occurrence occurrence = new Occurrence();
+        System.out.println(occurrence.strStr("leetcode", "leeto"));
+
 
     }
 
