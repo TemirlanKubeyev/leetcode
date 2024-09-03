@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -49,13 +51,13 @@ public class Main {
         //SearchInsertPosition searchInsertPosition = new SearchInsertPosition();
         //System.out.println(searchInsertPosition.searchInsert(new int[]{1, 3, 5, 6}, 7));
 
-        LastWordLength lastWordLength = new LastWordLength();
-        System.out.println(lastWordLength.lengthOfLastWord("luffy is still joyboy"));
+        //LastWordLength lastWordLength = new LastWordLength();
+        //System.out.println(lastWordLength.lengthOfLastWord("luffy is still joyboy"));
 
+        PlusOne plusOne = new PlusOne();
+        System.out.println(Arrays.toString(plusOne.plusOne(new int[]{1, 2, 3})));
 
     }
-
-
 
 }
 
