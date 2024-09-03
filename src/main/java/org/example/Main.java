@@ -54,8 +54,12 @@ public class Main {
         //LastWordLength lastWordLength = new LastWordLength();
         //System.out.println(lastWordLength.lengthOfLastWord("luffy is still joyboy"));
 
-        PlusOne plusOne = new PlusOne();
-        System.out.println(Arrays.toString(plusOne.plusOne(new int[]{1, 2, 3})));
+        //PlusOne plusOne = new PlusOne();
+        //System.out.println(Arrays.toString(plusOne.plusOne(new int[]{1, 2, 3})));
+
+        BinaryNumber binaryNumber = new BinaryNumber();
+        System.out.println(binaryNumber.addBinary("11", "1"));
+
 
     }
 
