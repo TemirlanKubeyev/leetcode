@@ -57,8 +57,10 @@ public class Main {
         //PlusOne plusOne = new PlusOne();
         //System.out.println(Arrays.toString(plusOne.plusOne(new int[]{1, 2, 3})));
 
-        BinaryNumber binaryNumber = new BinaryNumber();
-        System.out.println(binaryNumber.addBinary("11", "1"));
+        //BinaryNumber binaryNumber = new BinaryNumber();
+        //System.out.println(binaryNumber.addBinary("11", "1"));
+
+        MergeArrays.merge(new int[]{-1,0,0,3,3,3,0,0,0}, 6, new int[]{1, 2, 2}, 3);
 
 
     }
