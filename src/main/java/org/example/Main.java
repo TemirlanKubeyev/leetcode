@@ -62,8 +62,9 @@ public class Main {
 
         //MergeArrays.merge(new int[]{-1,0,0,3,3,3,0,0,0}, 6, new int[]{1, 2, 2}, 3);
 
-        System.out.println(LongestSubstring.lengthOfLongestSubstring("pwwkew"));
+        //System.out.println(LongestSubstring.lengthOfLongestSubstring("pwwkew"));
 
+        System.out.println(ClimbingStairs.climbStairs(6));
 
     }
 
